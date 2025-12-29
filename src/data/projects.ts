@@ -19,10 +19,10 @@ const projects: IProjectItem[] = [
     description:
       "An e-commerce web application developed using React.js, Material UI, Redux, and Stripe.",
     icon: "/skills/react.svg",
-    repoType: RepoType.Public,
+    repoType: '',
     projectType: ProjectType.Personal,
-    githubUrl: "https://github.com/nixrajput/ecommerce-web-reactjs",
-    url: "https://nixlab-shop.vercel.app",
+    // githubUrl: "https://github.com/nixrajput/ecommerce-web-reactjs",
+    // url: "https://nixlab-shop.vercel.app",
     tags: ["React.js", "Redux", "Material UI", "Stripe"],
   },
   // {
@@ -45,7 +45,7 @@ const projects: IProjectItem[] = [
     icon: "/skills/nestjs.svg",
     repoType: RepoType.Public,
     projectType: ProjectType.Personal,
-    githubUrl: "https://github.com/nixrajput/social-media-api-nodejs",
+    // githubUrl: "https://github.com/nixrajput/social-media-api-nodejs",
     tags: ["Node.js", "Express.js", "MongoDB", "WebSocket"],
   },
   // {
@@ -66,9 +66,9 @@ const projects: IProjectItem[] = [
     description:
       "A RESTful API developed using Node.js, Express.js, MongoDB, and Stripe to integrate e-commerce backend.",
     icon: "/skills/nodejs.svg",
-    repoType: RepoType.Public,
+    repoType: '' as any,
     projectType: ProjectType.Personal,
-    githubUrl: "https://github.com/nixrajput/ecommerce-api-nodejs",
+    // githubUrl: "https://github.com/nixrajput/ecommerce-api-nodejs",
     tags: ["Node.js", "Express.js", "MongoDB", "Stripe"],
   },
   // {
@@ -93,18 +93,18 @@ const projects: IProjectItem[] = [
   //   githubUrl: "https://github.com/nixrajput/gettimeago",
   //   tags: ["Dart", "DateTime", "Formatting"],
   // },
-  {
-    id: "portfolio-website",
-    title: "Portfolio Website",
-    description:
-      "This repository contains the source code for a portfolio website built using Next.js and Sass.",
-    icon: "/skills/nextjs.png",
-    repoType: RepoType.Public,
-    projectType: ProjectType.Personal,
-    githubUrl: "https://github.com/nixrajput/portfolio-website",
-    url: "https://nixrajput.dev",
-    tags: ["Next.js", "Sass", "Web Development"],
-  },
+  // {
+  //   id: "portfolio-website",
+  //   title: "Portfolio Website",
+  //   description:
+  //     "This repository contains the source code for a portfolio website built using Next.js and Sass.",
+  //   icon: "/skills/nextjs.png",
+  //   repoType: RepoType.Public,
+  //   projectType: ProjectType.Personal,
+  //   githubUrl: "https://github.com/nixrajput/portfolio-website",
+  //   url: "https://nixrajput.dev",
+  //   tags: ["Next.js", "Sass", "Web Development"],
+  // },
   // {
   //   id: "bus-reservation-system-management",
   //   title: "Bus Reservation System Management",
