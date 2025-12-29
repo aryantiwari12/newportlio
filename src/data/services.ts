@@ -2,27 +2,13 @@ import { IServiceItem } from "@/types";
 
 const services: IServiceItem[] = [
   {
-    id: 1,
-    title: "Mobile App Development",
-    icons: [
-      "/skills/socket-io.png",
-      "/skills/dart.svg",
-      "/skills/flutter.svg",
-      "/skills/getx.png",
-      "/skills/firebase.svg",
-    ],
-    shortDescription:
-      "I create engaging mobile applications for your audience.",
-    description:
-      "I create captivating mobile apps from concept to deployment for iOS and Android. Using cutting-edge technologies, I ensure seamless performance, intuitive interfaces, and robust functionality that align with your business goals. Enjoy a flawless user experience and outstanding results.",
-  },
-  {
     id: 2,
     title: "Web Development",
     icons: [
       "/skills/redux.svg",
       "/skills/react.svg",
       "/skills/nextjs.png",
+      "/skills/angular-ico.svg",
       "/skills/html.svg",
       "/skills/css.svg",
     ],
@@ -66,8 +52,6 @@ const services: IServiceItem[] = [
       "/skills/docker.svg",
       "/skills/kubernetes.svg",
       "/skills/aws.svg",
-      "/skills/jenkins.svg",
-      "/skills/terraform.svg",
     ],
     shortDescription: "I streamline development and operations processes.",
     description:
@@ -78,10 +62,7 @@ const services: IServiceItem[] = [
     title: "Database Management",
     icons: [
       "/skills/mysql.svg",
-      "/skills/postgresql.svg",
       "/skills/mongodb.svg",
-      "/skills/redis.svg",
-      "/skills/sqlite.svg",
     ],
     shortDescription: "I manage and optimize your database systems.",
     description:

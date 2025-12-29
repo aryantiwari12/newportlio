@@ -25,9 +25,9 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Nikhil Rajput",
+  title: "Aryan Tiwari",
   description:
-    "Nikhil Rajput is a proficient Software Engineer and Full Stack Developer from India, skilled in front-end and back-end development using modern tech stacks.",
+    "Aryan Tiwari is a proficient Software Engineer and Full Stack Developer from India, skilled in front-end and back-end development using modern tech stacks.",
   robots: {
     index: true,
     follow: true,
@@ -40,24 +40,24 @@ export const metadata: Metadata = {
     },
   },
   icons: [
-    {
-      url: "/favicon-16x16.ico",
-      rel: "icon",
-      sizes: "16x16",
-      type: "image/x-icon",
-    },
-    {
-      url: "/favicon-32x32.ico",
-      rel: "icon",
-      sizes: "32x32",
-      type: "image/x-icon",
-    },
-    {
-      url: "/favicon-48x48.ico",
-      rel: "icon",
-      sizes: "48x48",
-      type: "image/x-icon",
-    },
+    // {
+    //   url: "/favicon-16x16.ico",
+    //   rel: "icon",
+    //   sizes: "16x16",
+    //   type: "image/x-icon",
+    // },
+    // {
+    //   url: "/favicon-32x32.ico",
+    //   rel: "icon",
+    //   sizes: "32x32",
+    //   type: "image/x-icon",
+    // },
+    // {
+    //   url: "/favicon-48x48.ico",
+    //   rel: "icon",
+    //   sizes: "48x48",
+    //   type: "image/x-icon",
+    // },
     {
       url: "/favicon-64x64.ico",
       rel: "icon",
@@ -66,16 +66,8 @@ export const metadata: Metadata = {
     },
   ],
   keywords: [
-    "nikhil rajput",
-    "nikhil",
-    "nixrajput",
-    "nikhil-rajput",
-    "rajput nikhil",
-    "founder of nixlab",
-    "nixlab founder",
-    "full stack developer",
-    "indian developer",
-    "nixrajput github",
+    "Aryan Tiwari",
+    "aryan",
   ],
 };
 
